@@ -12,7 +12,7 @@ import ZipSearch from '@/components/ZipSearch.vue'
 export default {
   name: 'about',
   components: {
-    ZipSearch
-  }
+    ZipSearch,
+  },
 }
 </script>

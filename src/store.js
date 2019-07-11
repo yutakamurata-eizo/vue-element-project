@@ -5,21 +5,21 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    count: 0
+    count: 0,
   },
   getters: {
-    count (state) {
+    count(state) {
       return state.count
-    }
+    },
   },
   mutations: {
-    increment (state, payload) {
+    increment(state, payload) {
       state.count += payload.cnt * 1
-    }
+    },
   },
   actions: {
-    increment ({ commit }, payload) {
+    increment({ commit }, payload) {
       commit('increment', payload)
-    }
-  }
+    },
+  },
 })

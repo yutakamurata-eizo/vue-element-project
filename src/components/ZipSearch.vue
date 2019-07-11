@@ -24,12 +24,12 @@ export default {
         prefcode: '',
         address1: '',
         address2: '',
-        address3: ''
-      }
+        address3: '',
+      },
     }
   },
   methods: {
-    doSearch () {
+    doSearch() {
       this.$axios
         .get('/zipcode.json')
         .then(res => {
@@ -46,7 +46,7 @@ export default {
         .catch(err => {
           console.log(err)
         })
-    }
-  }
+    },
+  },
 }
 </script>

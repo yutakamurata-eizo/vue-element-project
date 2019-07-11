@@ -23,7 +23,7 @@ import TestComp from '@/components/TestComp.vue'
 export default {
   name: 'test',
   components: {
-    TestComp
-  }
+    TestComp,
+  },
 }
 </script>

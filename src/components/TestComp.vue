@@ -18,22 +18,22 @@ import store from '@/store.js'
 export default {
   name: 'TestComp',
   props: {
-    msg: String
+    msg: String,
   },
-  data: function () {
+  data: function() {
     return {
-      num: 0
+      num: 0,
     }
   },
   computed: {
-    count () {
+    count() {
       return store.getters.count
-    }
+    },
   },
   methods: {
-    doAdd () {
+    doAdd() {
       store.dispatch('increment', { cnt: this.num })
-    }
-  }
+    },
+  },
 }
 </script>
