@@ -1,34 +1,28 @@
 # vue-project
 
-## Project setup
+[Vue.jsのプロジェクト作成(Vuex、vue-router、Axios、ESLint、Prettier、Jest)](https://qiita.com/yoshi0518/items/f07bd9fb650066ca4389)
+
+## セットアップ
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## 開発サーバー起動
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+## ビルド
 ```
 npm run build
 ```
 
-### Run your tests
+## Jest
 ```
 npm run test
 ```
 
-### Lints and fixes files
+## ESLint、Prettier
 ```
 npm run lint
 ```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
