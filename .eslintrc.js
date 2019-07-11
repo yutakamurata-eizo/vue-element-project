@@ -2,7 +2,8 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    node: true
+    node: true,
+    'jest/globals': true
   },
   'extends': [
     'plugin:vue/essential',
@@ -12,7 +13,8 @@ module.exports = {
   ],
   plugins: [
     'vue',
-    'prettier'
+    'prettier',
+    'jest'
   ],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
