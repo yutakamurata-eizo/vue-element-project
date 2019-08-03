@@ -1,6 +1,4 @@
-# vue-project
-
-[Vue.jsのプロジェクト作成(Vuex、vue-router、Axios、ESLint、Prettier、Jest)](https://qiita.com/yoshi0518/items/f07bd9fb650066ca4389)
+# vue-element-project
 
 ## セットアップ
 ```
