@@ -9,6 +9,22 @@ import Button from './views/basic/button.vue'
 import Link from './views/basic/link.vue'
 import Data from './views/data/index.vue'
 import Form from './views/form/index.vue'
+import Radio from './views/form/radio.vue'
+import Checkbox from './views/form/checkbox.vue'
+import Input from './views/form/input.vue'
+import InputNumber from './views/form/inputNumber.vue'
+import Select from './views/form/select.vue'
+import Cascader from './views/form/cascader.vue'
+import Switch from './views/form/switch.vue'
+import Slider from './views/form/slider.vue'
+import TimePicker from './views/form/timepicker.vue'
+import DatePicker from './views/form/datepicker.vue'
+import DateTimePicker from './views/form/datetimepicker.vue'
+import Upload from './views/form/upload.vue'
+import Rate from './views/form/rate.vue'
+import ColorPicker from './views/form/colorpicker.vue'
+import Transfer from './views/form/transfer.vue'
+import Form2 from './views/form/form.vue'
 import Navigation from './views/navigation/index.vue'
 import Notice from './views/notice/index.vue'
 import Others from './views/others/index.vue'
@@ -68,6 +84,87 @@ export default new Router({
       path: '/form',
       name: 'form',
       component: Form,
+    },
+    {
+      path: '/form/radio',
+      name: 'form/radio',
+      component: Radio,
+    },
+    {
+      path: '/form/checkbox',
+      name: 'form/checkbox',
+      component: Checkbox,
+    },
+    {
+      path: '/form/input',
+      name: 'form/input',
+      component: Input,
+    },
+    {
+      path: '/form/input-number',
+      name: 'form/input-number',
+      component: InputNumber,
+    },
+    {
+      path: '/form/select',
+      name: 'form/select',
+      component: Select,
+    },
+    {
+      path: '/form/cascader',
+      name: 'form/cascader',
+      component: Cascader,
+    },
+
+    {
+      path: '/form/switch',
+      name: 'form/switch',
+      component: Switch,
+    },
+    {
+      path: '/form/slider',
+      name: 'form/slider',
+      component: Slider,
+    },
+    {
+      path: '/form/timepicker',
+      name: 'form/timepicker',
+      component: TimePicker,
+    },
+    {
+      path: '/form/datepicker',
+      name: 'form/datepicker',
+      component: DatePicker,
+    },
+    {
+      path: '/form/datetimepicker',
+      name: 'form/datetimepicker',
+      component: DateTimePicker,
+    },
+    {
+      path: '/form/upload',
+      name: 'form/upload',
+      component: Upload,
+    },
+    {
+      path: '/form/rate',
+      name: 'form/rate',
+      component: Rate,
+    },
+    {
+      path: '/form/colorpicker',
+      name: 'form/colorpicker',
+      component: ColorPicker,
+    },
+    {
+      path: '/form/transfer',
+      name: 'form/transfer',
+      component: Transfer,
+    },
+    {
+      path: '/form/form',
+      name: 'form/form',
+      component: Form2,
     },
     // === Form end ===
     // === Navigation start ===
