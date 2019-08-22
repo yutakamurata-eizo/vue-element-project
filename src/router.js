@@ -8,6 +8,12 @@ import Color from './views/basic/color.vue'
 import Button from './views/basic/button.vue'
 import Link from './views/basic/link.vue'
 import Data from './views/data/index.vue'
+import Table from './views/data/table.vue'
+import Tag from './views/data/tag.vue'
+import Progress from './views/data/progress.vue'
+import Tree from './views/data/tree.vue'
+import Pagination from './views/data/pagination.vue'
+import Badge from './views/data/badge.vue'
 import Form from './views/form/index.vue'
 import Radio from './views/form/radio.vue'
 import Checkbox from './views/form/checkbox.vue'
@@ -77,6 +83,36 @@ export default new Router({
       path: '/data',
       name: 'data',
       component: Data,
+    },
+    {
+      path: '/data/table',
+      name: 'data/table',
+      component: Table,
+    },
+    {
+      path: '/data/tag',
+      name: 'data/tag',
+      component: Tag,
+    },
+    {
+      path: '/data/progress',
+      name: 'data/progress',
+      component: Progress,
+    },
+    {
+      path: '/data/tree',
+      name: 'data/tree',
+      component: Tree,
+    },
+    {
+      path: '/data/pagination',
+      name: 'data/pagination',
+      component: Pagination,
+    },
+    {
+      path: '/data/badge',
+      name: 'data/badge',
+      component: Badge,
     },
     // === Data end ===
     // === Form start ===

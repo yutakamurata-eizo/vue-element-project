@@ -13,16 +13,12 @@ export default {
   data() {
     return {
       menus: [
-        { id: 1, name: 'xxx', url: '/xxx' },
-        { id: 2, name: 'xxx', url: '/xxx' },
-        { id: 3, name: 'xxx', url: '/xxx' },
-        { id: 4, name: 'xxx', url: '/xxx' },
-        { id: 5, name: 'xxx', url: '/xxx' },
-        { id: 6, name: 'xxx', url: '/xxx' },
-        { id: 7, name: 'xxx', url: '/xxx' },
-        { id: 8, name: 'xxx', url: '/xxx' },
-        { id: 9, name: 'xxx', url: '/xxx' },
-        { id: 10, name: 'xxx', url: '/xxx' },
+        { id: 1, name: 'Table', url: '/data/table' },
+        { id: 2, name: 'Tag', url: '/data/tag' },
+        { id: 3, name: 'Progress', url: '/data/progress' },
+        { id: 4, name: 'Tree', url: '/data/tree' },
+        { id: 5, name: 'Pagination', url: '/data/pagination' },
+        { id: 6, name: 'Badge', url: '/data/badge' },
       ],
     }
   },
