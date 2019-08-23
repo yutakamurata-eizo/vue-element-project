@@ -33,6 +33,11 @@ import Transfer from './views/form/transfer.vue'
 import Form2 from './views/form/form.vue'
 import Navigation from './views/navigation/index.vue'
 import Notice from './views/notice/index.vue'
+import Alert from './views/notice/alert.vue'
+import Loading from './views/notice/loading.vue'
+import Message from './views/notice/message.vue'
+import MessageBox from './views/notice/message-box.vue'
+import Notification from './views/notice/notification.vue'
 import Others from './views/others/index.vue'
 
 Vue.use(Router)
@@ -215,6 +220,31 @@ export default new Router({
       path: '/notice',
       name: 'notice',
       component: Notice,
+    },
+    {
+      path: '/notice/alert',
+      name: 'notice/alert',
+      component: Alert,
+    },
+    {
+      path: '/notice/loading',
+      name: 'notice/loading',
+      component: Loading,
+    },
+    {
+      path: '/notice/message',
+      name: 'notice/message',
+      component: Message,
+    },
+    {
+      path: '/notice/message-box',
+      name: 'notice/message-box',
+      component: MessageBox,
+    },
+    {
+      path: '/notice/notification',
+      name: 'notice/notification',
+      component: Notification,
     },
     // === Notice end ===
     // === Others start ===

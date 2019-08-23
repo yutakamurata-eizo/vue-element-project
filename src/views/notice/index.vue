@@ -13,16 +13,11 @@ export default {
   data() {
     return {
       menus: [
-        { id: 1, name: 'xxx', url: '/xxx' },
-        { id: 2, name: 'xxx', url: '/xxx' },
-        { id: 3, name: 'xxx', url: '/xxx' },
-        { id: 4, name: 'xxx', url: '/xxx' },
-        { id: 5, name: 'xxx', url: '/xxx' },
-        { id: 6, name: 'xxx', url: '/xxx' },
-        { id: 7, name: 'xxx', url: '/xxx' },
-        { id: 8, name: 'xxx', url: '/xxx' },
-        { id: 9, name: 'xxx', url: '/xxx' },
-        { id: 10, name: 'xxx', url: '/xxx' },
+        { id: 1, name: 'Alert', url: '/notice/alert' },
+        { id: 2, name: 'Loading', url: '/notice/loading' },
+        { id: 3, name: 'Message', url: '/notice/message' },
+        { id: 4, name: 'MessageBox', url: '/notice/message-box' },
+        { id: 5, name: 'Notification', url: '/notice/notification' },
       ],
     }
   },
