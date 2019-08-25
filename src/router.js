@@ -32,6 +32,12 @@ import ColorPicker from './views/form/colorpicker.vue'
 import Transfer from './views/form/transfer.vue'
 import Form2 from './views/form/form.vue'
 import Navigation from './views/navigation/index.vue'
+import NavMenu from './views/navigation/nav-menu.vue'
+import Tabs from './views/navigation/tabs.vue'
+import Breadcrumb from './views/navigation/breadcrumb.vue'
+import PageHeader from './views/navigation/page-header.vue'
+import Dropdown from './views/navigation/dropdown.vue'
+import Steps from './views/navigation/steps.vue'
 import Notice from './views/notice/index.vue'
 import Alert from './views/notice/alert.vue'
 import Loading from './views/notice/loading.vue'
@@ -213,6 +219,36 @@ export default new Router({
       path: '/navigation',
       name: 'navigation',
       component: Navigation,
+    },
+    {
+      path: '/navigation/nav-menu',
+      name: 'navigation/nav-menu',
+      component: NavMenu,
+    },
+    {
+      path: '/navigation/tabs',
+      name: 'navigation/tabs',
+      component: Tabs,
+    },
+    {
+      path: '/navigation/breadcrumb',
+      name: 'navigation/breadcrumb',
+      component: Breadcrumb,
+    },
+    {
+      path: '/navigation/page-header',
+      name: 'navigation/page-header',
+      component: PageHeader,
+    },
+    {
+      path: '/navigation/dropdown',
+      name: 'navigation/dropdown',
+      component: Dropdown,
+    },
+    {
+      path: '/navigation/steps',
+      name: 'navigation/steps',
+      component: Steps,
     },
     // === Navigation end ===
     // === Notice start ===
