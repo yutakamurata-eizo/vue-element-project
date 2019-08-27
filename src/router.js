@@ -45,6 +45,20 @@ import Message from './views/notice/message.vue'
 import MessageBox from './views/notice/message-box.vue'
 import Notification from './views/notice/notification.vue'
 import Others from './views/others/index.vue'
+import Dialog from './views/others/dialog.vue'
+import Tooltip from './views/others/tooltip.vue'
+import Popover from './views/others/popover.vue'
+import Card from './views/others/card.vue'
+import Carousel from './views/others/carousel.vue'
+import Collapse from './views/others/collapse.vue'
+import Timeline from './views/others/timeline.vue'
+import Divider from './views/others/divider.vue'
+import Calendar from './views/others/calendar.vue'
+import Image from './views/others/image.vue'
+import Backtop from './views/others/backtop.vue'
+import InfiniteScroll from './views/others/infinite-scroll.vue'
+import Avatar from './views/others/avatar.vue'
+import Drawer from './views/others/drawer.vue'
 
 Vue.use(Router)
 
@@ -288,6 +302,76 @@ export default new Router({
       path: '/others',
       name: 'others',
       component: Others,
+    },
+    {
+      path: '/others/dialog',
+      name: 'others/dialog',
+      component: Dialog,
+    },
+    {
+      path: '/others/tooltip',
+      name: 'others/tooltip',
+      component: Tooltip,
+    },
+    {
+      path: '/others/popover',
+      name: 'others/popover',
+      component: Popover,
+    },
+    {
+      path: '/others/card',
+      name: 'others/card',
+      component: Card,
+    },
+    {
+      path: '/others/carousel',
+      name: 'others/carousel',
+      component: Carousel,
+    },
+    {
+      path: '/others/collapse',
+      name: 'others/collapse',
+      component: Collapse,
+    },
+    {
+      path: '/others/timeline',
+      name: 'others/timeline',
+      component: Timeline,
+    },
+    {
+      path: '/others/divider',
+      name: 'others/divider',
+      component: Divider,
+    },
+    {
+      path: '/others/calendar',
+      name: 'others/calendar',
+      component: Calendar,
+    },
+    {
+      path: '/others/image',
+      name: 'others/image',
+      component: Image,
+    },
+    {
+      path: '/others/backtop',
+      name: 'others/backtop',
+      component: Backtop,
+    },
+    {
+      path: '/others/infinite-scroll',
+      name: 'others/infinite-scroll',
+      component: InfiniteScroll,
+    },
+    {
+      path: '/others/avatar',
+      name: 'others/avatar',
+      component: Avatar,
+    },
+    {
+      path: '/others/drawer',
+      name: 'others/drawer',
+      component: Drawer,
     },
     // === Others end ===
   ],
